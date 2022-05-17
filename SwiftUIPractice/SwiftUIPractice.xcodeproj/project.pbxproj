@@ -19,6 +19,14 @@
 		51196A592832AC620056CC9D /* MyProjectCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51196A582832AC620056CC9D /* MyProjectCard.swift */; };
 		51196A5B2832AF820056CC9D /* MyBasicCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51196A5A2832AF820056CC9D /* MyBasicCard.swift */; };
 		51196A5D2832B3DB0056CC9D /* MyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51196A5C2832B3DB0056CC9D /* MyCard.swift */; };
+		51C13AB72833D0CC00B75023 /* MyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C13AB62833D0CC00B75023 /* MyTabView.swift */; };
+		51C13AB92833DD1A00B75023 /* MyButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C13AB82833DD1A00B75023 /* MyButtonStyle.swift */; };
+		51D5B1A628339FA400E7F6F7 /* MyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D5B1A528339FA400E7F6F7 /* MyList.swift */; };
+		51D5B1A82833AA7100E7F6F7 /* MyNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D5B1A72833AA7100E7F6F7 /* MyNavigationView.swift */; };
+		51D5B1AA2833C40500E7F6F7 /* MyProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D5B1A92833C40500E7F6F7 /* MyProfileView.swift */; };
+		51D5B1AC2833C4E100E7F6F7 /* MyCircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D5B1AB2833C4E100E7F6F7 /* MyCircleImageView.swift */; };
+		51D5B1AE2833CA0200E7F6F7 /* MyGeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D5B1AD2833CA0200E7F6F7 /* MyGeometryReader.swift */; };
+		51D5B1B02833CC3000E7F6F7 /* MyGeomeryReaderVStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D5B1AF2833CC3000E7F6F7 /* MyGeomeryReaderVStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +43,14 @@
 		51196A582832AC620056CC9D /* MyProjectCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProjectCard.swift; sourceTree = "<group>"; };
 		51196A5A2832AF820056CC9D /* MyBasicCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBasicCard.swift; sourceTree = "<group>"; };
 		51196A5C2832B3DB0056CC9D /* MyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCard.swift; sourceTree = "<group>"; };
+		51C13AB62833D0CC00B75023 /* MyTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabView.swift; sourceTree = "<group>"; };
+		51C13AB82833DD1A00B75023 /* MyButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButtonStyle.swift; sourceTree = "<group>"; };
+		51D5B1A528339FA400E7F6F7 /* MyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyList.swift; sourceTree = "<group>"; };
+		51D5B1A72833AA7100E7F6F7 /* MyNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigationView.swift; sourceTree = "<group>"; };
+		51D5B1A92833C40500E7F6F7 /* MyProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileView.swift; sourceTree = "<group>"; };
+		51D5B1AB2833C4E100E7F6F7 /* MyCircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCircleImageView.swift; sourceTree = "<group>"; };
+		51D5B1AD2833CA0200E7F6F7 /* MyGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGeometryReader.swift; sourceTree = "<group>"; };
+		51D5B1AF2833CC3000E7F6F7 /* MyGeomeryReaderVStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGeomeryReaderVStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +67,6 @@
 		51196A34283246E00056CC9D = {
 			isa = PBXGroup;
 			children = (
-				51196A5C2832B3DB0056CC9D /* MyCard.swift */,
 				51196A3F283246E00056CC9D /* SwiftUIPractice */,
 				51196A3E283246E00056CC9D /* Products */,
 			);
@@ -68,8 +83,16 @@
 		51196A3F283246E00056CC9D /* SwiftUIPractice */ = {
 			isa = PBXGroup;
 			children = (
+				51196A5C2832B3DB0056CC9D /* MyCard.swift */,
 				51196A40283246E00056CC9D /* SwiftUIPracticeApp.swift */,
 				51196A42283246E00056CC9D /* ContentView.swift */,
+				51C13AB82833DD1A00B75023 /* MyButtonStyle.swift */,
+				51D5B1A92833C40500E7F6F7 /* MyProfileView.swift */,
+				51D5B1AD2833CA0200E7F6F7 /* MyGeometryReader.swift */,
+				51D5B1AF2833CC3000E7F6F7 /* MyGeomeryReaderVStack.swift */,
+				51C13AB62833D0CC00B75023 /* MyTabView.swift */,
+				51D5B1AB2833C4E100E7F6F7 /* MyCircleImageView.swift */,
+				51D5B1A72833AA7100E7F6F7 /* MyNavigationView.swift */,
 				51196A44283246E00056CC9D /* Assets.xcassets */,
 				51196A46283246E00056CC9D /* Preview Content */,
 				51196A4E283256C90056CC9D /* MyVstackView.swift */,
@@ -78,6 +101,7 @@
 				51196A54283292160056CC9D /* MyHstackView.swift */,
 				51196A56283292FE0056CC9D /* MyZstack.swift */,
 				51196A582832AC620056CC9D /* MyProjectCard.swift */,
+				51D5B1A528339FA400E7F6F7 /* MyList.swift */,
 				51196A5A2832AF820056CC9D /* MyBasicCard.swift */,
 			);
 			path = SwiftUIPractice;
@@ -161,12 +185,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51D5B1A628339FA400E7F6F7 /* MyList.swift in Sources */,
 				51196A43283246E00056CC9D /* ContentView.swift in Sources */,
+				51D5B1A82833AA7100E7F6F7 /* MyNavigationView.swift in Sources */,
+				51D5B1B02833CC3000E7F6F7 /* MyGeomeryReaderVStack.swift in Sources */,
+				51D5B1AA2833C40500E7F6F7 /* MyProfileView.swift in Sources */,
 				51196A51283259A30056CC9D /* MyTextView.swift in Sources */,
 				51196A57283292FE0056CC9D /* MyZstack.swift in Sources */,
+				51D5B1AC2833C4E100E7F6F7 /* MyCircleImageView.swift in Sources */,
 				51196A5D2832B3DB0056CC9D /* MyCard.swift in Sources */,
 				51196A41283246E00056CC9D /* SwiftUIPracticeApp.swift in Sources */,
+				51D5B1AE2833CA0200E7F6F7 /* MyGeometryReader.swift in Sources */,
 				51196A5B2832AF820056CC9D /* MyBasicCard.swift in Sources */,
+				51C13AB72833D0CC00B75023 /* MyTabView.swift in Sources */,
+				51C13AB92833DD1A00B75023 /* MyButtonStyle.swift in Sources */,
 				51196A53283275ED0056CC9D /* CircleImageView.swift in Sources */,
 				51196A592832AC620056CC9D /* MyProjectCard.swift in Sources */,
 				51196A55283292160056CC9D /* MyHstackView.swift in Sources */,
@@ -299,6 +331,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIPractice/Preview Content\"";
+				DEVELOPMENT_TEAM = 6R725M7WWC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -327,6 +360,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIPractice/Preview Content\"";
+				DEVELOPMENT_TEAM = 6R725M7WWC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
