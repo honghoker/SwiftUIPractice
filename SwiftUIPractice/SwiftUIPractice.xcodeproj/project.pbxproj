@@ -19,6 +19,24 @@
 		51196A592832AC620056CC9D /* MyProjectCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51196A582832AC620056CC9D /* MyProjectCard.swift */; };
 		51196A5B2832AF820056CC9D /* MyBasicCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51196A5A2832AF820056CC9D /* MyBasicCard.swift */; };
 		51196A5D2832B3DB0056CC9D /* MyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51196A5C2832B3DB0056CC9D /* MyCard.swift */; };
+		51B40063283664B400BC8F78 /* MyLazyVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B40062283664B400BC8F78 /* MyLazyVGrid.swift */; };
+		51B40065283669BD00BC8F78 /* SegmentLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B40064283669BD00BC8F78 /* SegmentLayoutView.swift */; };
+		51B4006828367BD700BC8F78 /* ProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B4006728367BD700BC8F78 /* ProfileImageView.swift */; };
+		51B4006B28367C0F00BC8F78 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B4006A28367C0F00BC8F78 /* MainView.swift */; };
+		51B4006E28367C8E00BC8F78 /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 51B4006D28367C8E00BC8F78 /* URLImage */; };
+		51B4007028367C8E00BC8F78 /* URLImageStore in Frameworks */ = {isa = PBXBuildFile; productRef = 51B4006F28367C8E00BC8F78 /* URLImageStore */; };
+		51B4007228367DE100BC8F78 /* RandomUserRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B4007128367DE100BC8F78 /* RandomUserRowView.swift */; };
+		51B4007528367F9F00BC8F78 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 51B4007428367F9F00BC8F78 /* Alamofire */; };
+		51B400782836801400BC8F78 /* RandomUser+ResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B400772836801400BC8F78 /* RandomUser+ResponseData.swift */; };
+		51B4007A2836821E00BC8F78 /* RandomeUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B400792836821E00BC8F78 /* RandomeUserViewModel.swift */; };
+		51B4007D28369EDB00BC8F78 /* Introspect in Frameworks */ = {isa = PBXBuildFile; productRef = 51B4007C28369EDB00BC8F78 /* Introspect */; };
+		51B400802836A63E00BC8F78 /* RandomUserRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B4007F2836A63E00BC8F78 /* RandomUserRouter.swift */; };
+		51B400832836B11300BC8F78 /* DarkModeMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B400822836B11300BC8F78 /* DarkModeMainView.swift */; };
+		51B400862836B4CA00BC8F78 /* STBMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B400852836B4CA00BC8F78 /* STBMainView.swift */; };
+		51B400882836BC0900BC8F78 /* BeforeBadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B400872836BC0900BC8F78 /* BeforeBadView.swift */; };
+		51B4008A2836BCF800BC8F78 /* WeeklyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B400892836BCF800BC8F78 /* WeeklyView.swift */; };
+		51B4008C2836BD7900BC8F78 /* MyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B4008B2836BD7900BC8F78 /* MyViewModel.swift */; };
+		51B4008F2836D94300BC8F78 /* GestureMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B4008E2836D94300BC8F78 /* GestureMainView.swift */; };
 		51C13AB72833D0CC00B75023 /* MyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C13AB62833D0CC00B75023 /* MyTabView.swift */; };
 		51C13AB92833DD1A00B75023 /* MyButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C13AB82833DD1A00B75023 /* MyButtonStyle.swift */; };
 		51D5B1A628339FA400E7F6F7 /* MyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D5B1A528339FA400E7F6F7 /* MyList.swift */; };
@@ -43,6 +61,20 @@
 		51196A582832AC620056CC9D /* MyProjectCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProjectCard.swift; sourceTree = "<group>"; };
 		51196A5A2832AF820056CC9D /* MyBasicCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBasicCard.swift; sourceTree = "<group>"; };
 		51196A5C2832B3DB0056CC9D /* MyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCard.swift; sourceTree = "<group>"; };
+		51B40062283664B400BC8F78 /* MyLazyVGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLazyVGrid.swift; sourceTree = "<group>"; };
+		51B40064283669BD00BC8F78 /* SegmentLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentLayoutView.swift; sourceTree = "<group>"; };
+		51B4006728367BD700BC8F78 /* ProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageView.swift; sourceTree = "<group>"; };
+		51B4006A28367C0F00BC8F78 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		51B4007128367DE100BC8F78 /* RandomUserRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUserRowView.swift; sourceTree = "<group>"; };
+		51B400772836801400BC8F78 /* RandomUser+ResponseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RandomUser+ResponseData.swift"; sourceTree = "<group>"; };
+		51B400792836821E00BC8F78 /* RandomeUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomeUserViewModel.swift; sourceTree = "<group>"; };
+		51B4007F2836A63E00BC8F78 /* RandomUserRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUserRouter.swift; sourceTree = "<group>"; };
+		51B400822836B11300BC8F78 /* DarkModeMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeMainView.swift; sourceTree = "<group>"; };
+		51B400852836B4CA00BC8F78 /* STBMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STBMainView.swift; sourceTree = "<group>"; };
+		51B400872836BC0900BC8F78 /* BeforeBadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeforeBadView.swift; sourceTree = "<group>"; };
+		51B400892836BCF800BC8F78 /* WeeklyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyView.swift; sourceTree = "<group>"; };
+		51B4008B2836BD7900BC8F78 /* MyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewModel.swift; sourceTree = "<group>"; };
+		51B4008E2836D94300BC8F78 /* GestureMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureMainView.swift; sourceTree = "<group>"; };
 		51C13AB62833D0CC00B75023 /* MyTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabView.swift; sourceTree = "<group>"; };
 		51C13AB82833DD1A00B75023 /* MyButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButtonStyle.swift; sourceTree = "<group>"; };
 		51D5B1A528339FA400E7F6F7 /* MyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyList.swift; sourceTree = "<group>"; };
@@ -58,6 +90,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51B4007528367F9F00BC8F78 /* Alamofire in Frameworks */,
+				51B4007D28369EDB00BC8F78 /* Introspect in Frameworks */,
+				51B4007028367C8E00BC8F78 /* URLImageStore in Frameworks */,
+				51B4006E28367C8E00BC8F78 /* URLImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,9 +119,15 @@
 		51196A3F283246E00056CC9D /* SwiftUIPractice */ = {
 			isa = PBXGroup;
 			children = (
+				51B4008D2836D92500BC8F78 /* Gesture */,
+				51B400842836B4AC00BC8F78 /* State_Binding_EnvironmentObject */,
+				51B400812836B10100BC8F78 /* DarkMode */,
+				51B4006628367BAC00BC8F78 /* RandomUser */,
 				51196A5C2832B3DB0056CC9D /* MyCard.swift */,
 				51196A40283246E00056CC9D /* SwiftUIPracticeApp.swift */,
 				51196A42283246E00056CC9D /* ContentView.swift */,
+				51B40062283664B400BC8F78 /* MyLazyVGrid.swift */,
+				51B40064283669BD00BC8F78 /* SegmentLayoutView.swift */,
 				51C13AB82833DD1A00B75023 /* MyButtonStyle.swift */,
 				51D5B1A92833C40500E7F6F7 /* MyProfileView.swift */,
 				51D5B1AD2833CA0200E7F6F7 /* MyGeometryReader.swift */,
@@ -115,6 +157,70 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		51B4006628367BAC00BC8F78 /* RandomUser */ = {
+			isa = PBXGroup;
+			children = (
+				51B4007E2836A63000BC8F78 /* Api */,
+				51B400762836800200BC8F78 /* Data */,
+				51B4006928367BDD00BC8F78 /* UI */,
+			);
+			path = RandomUser;
+			sourceTree = "<group>";
+		};
+		51B4006928367BDD00BC8F78 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				51B4006728367BD700BC8F78 /* ProfileImageView.swift */,
+				51B4007128367DE100BC8F78 /* RandomUserRowView.swift */,
+				51B4006A28367C0F00BC8F78 /* MainView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		51B400762836800200BC8F78 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				51B400772836801400BC8F78 /* RandomUser+ResponseData.swift */,
+				51B400792836821E00BC8F78 /* RandomeUserViewModel.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		51B4007E2836A63000BC8F78 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				51B4007F2836A63E00BC8F78 /* RandomUserRouter.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		51B400812836B10100BC8F78 /* DarkMode */ = {
+			isa = PBXGroup;
+			children = (
+				51B400822836B11300BC8F78 /* DarkModeMainView.swift */,
+			);
+			path = DarkMode;
+			sourceTree = "<group>";
+		};
+		51B400842836B4AC00BC8F78 /* State_Binding_EnvironmentObject */ = {
+			isa = PBXGroup;
+			children = (
+				51B400852836B4CA00BC8F78 /* STBMainView.swift */,
+				51B4008B2836BD7900BC8F78 /* MyViewModel.swift */,
+				51B400892836BCF800BC8F78 /* WeeklyView.swift */,
+				51B400872836BC0900BC8F78 /* BeforeBadView.swift */,
+			);
+			path = State_Binding_EnvironmentObject;
+			sourceTree = "<group>";
+		};
+		51B4008D2836D92500BC8F78 /* Gesture */ = {
+			isa = PBXGroup;
+			children = (
+				51B4008E2836D94300BC8F78 /* GestureMainView.swift */,
+			);
+			path = Gesture;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,6 +237,12 @@
 			dependencies = (
 			);
 			name = SwiftUIPractice;
+			packageProductDependencies = (
+				51B4006D28367C8E00BC8F78 /* URLImage */,
+				51B4006F28367C8E00BC8F78 /* URLImageStore */,
+				51B4007428367F9F00BC8F78 /* Alamofire */,
+				51B4007C28369EDB00BC8F78 /* Introspect */,
+			);
 			productName = SwiftUIPractice;
 			productReference = 51196A3D283246E00056CC9D /* SwiftUIPractice.app */;
 			productType = "com.apple.product-type.application";
@@ -159,6 +271,11 @@
 				Base,
 			);
 			mainGroup = 51196A34283246E00056CC9D;
+			packageReferences = (
+				51B4006C28367C8E00BC8F78 /* XCRemoteSwiftPackageReference "url-image" */,
+				51B4007328367F9F00BC8F78 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				51B4007B28369EDB00BC8F78 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */,
+			);
 			productRefGroup = 51196A3E283246E00056CC9D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -185,20 +302,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51B400802836A63E00BC8F78 /* RandomUserRouter.swift in Sources */,
 				51D5B1A628339FA400E7F6F7 /* MyList.swift in Sources */,
 				51196A43283246E00056CC9D /* ContentView.swift in Sources */,
 				51D5B1A82833AA7100E7F6F7 /* MyNavigationView.swift in Sources */,
 				51D5B1B02833CC3000E7F6F7 /* MyGeomeryReaderVStack.swift in Sources */,
+				51B400862836B4CA00BC8F78 /* STBMainView.swift in Sources */,
 				51D5B1AA2833C40500E7F6F7 /* MyProfileView.swift in Sources */,
 				51196A51283259A30056CC9D /* MyTextView.swift in Sources */,
+				51B4007A2836821E00BC8F78 /* RandomeUserViewModel.swift in Sources */,
+				51B40065283669BD00BC8F78 /* SegmentLayoutView.swift in Sources */,
+				51B4006B28367C0F00BC8F78 /* MainView.swift in Sources */,
+				51B4008C2836BD7900BC8F78 /* MyViewModel.swift in Sources */,
 				51196A57283292FE0056CC9D /* MyZstack.swift in Sources */,
+				51B4007228367DE100BC8F78 /* RandomUserRowView.swift in Sources */,
+				51B400832836B11300BC8F78 /* DarkModeMainView.swift in Sources */,
+				51B4008F2836D94300BC8F78 /* GestureMainView.swift in Sources */,
+				51B4006828367BD700BC8F78 /* ProfileImageView.swift in Sources */,
 				51D5B1AC2833C4E100E7F6F7 /* MyCircleImageView.swift in Sources */,
+				51B400782836801400BC8F78 /* RandomUser+ResponseData.swift in Sources */,
+				51B4008A2836BCF800BC8F78 /* WeeklyView.swift in Sources */,
 				51196A5D2832B3DB0056CC9D /* MyCard.swift in Sources */,
 				51196A41283246E00056CC9D /* SwiftUIPracticeApp.swift in Sources */,
+				51B400882836BC0900BC8F78 /* BeforeBadView.swift in Sources */,
 				51D5B1AE2833CA0200E7F6F7 /* MyGeometryReader.swift in Sources */,
 				51196A5B2832AF820056CC9D /* MyBasicCard.swift in Sources */,
 				51C13AB72833D0CC00B75023 /* MyTabView.swift in Sources */,
 				51C13AB92833DD1A00B75023 /* MyButtonStyle.swift in Sources */,
+				51B40063283664B400BC8F78 /* MyLazyVGrid.swift in Sources */,
 				51196A53283275ED0056CC9D /* CircleImageView.swift in Sources */,
 				51196A592832AC620056CC9D /* MyProjectCard.swift in Sources */,
 				51196A55283292160056CC9D /* MyHstackView.swift in Sources */,
@@ -403,6 +534,56 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		51B4006C28367C8E00BC8F78 /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		51B4007328367F9F00BC8F78 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		51B4007B28369EDB00BC8F78 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/siteline/SwiftUI-Introspect.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		51B4006D28367C8E00BC8F78 /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 51B4006C28367C8E00BC8F78 /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
+		51B4006F28367C8E00BC8F78 /* URLImageStore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 51B4006C28367C8E00BC8F78 /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImageStore;
+		};
+		51B4007428367F9F00BC8F78 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 51B4007328367F9F00BC8F78 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		51B4007C28369EDB00BC8F78 /* Introspect */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 51B4007B28369EDB00BC8F78 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */;
+			productName = Introspect;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 51196A35283246E00056CC9D /* Project object */;
 }

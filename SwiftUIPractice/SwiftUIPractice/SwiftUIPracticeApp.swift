@@ -11,7 +11,8 @@ import SwiftUI
 struct SwiftUIPracticeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            STBMainView().environmentObject(MyViewModel())
+            GestureMainView()
         }
     }
 }
